@@ -66,6 +66,7 @@ pkgs.stdenv.mkDerivation {
         pkgs.python312Packages.loguru
         pkgs.python312Packages.certifi
         pkgs.python312Packages.idna
+        pkgs.python312Packages.jinja2
         pkgs.python312Packages.urllib3
         pkgs.python312Packages.requests
         pkgs.python312Packages.click
